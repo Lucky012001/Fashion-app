@@ -8,6 +8,7 @@ import "./style.css";
 const Header = () => {
   return (
     <>
+    <div> 
       <div className="container-fluid">
         <Image src={Rectangle_32} alt="img" className="header-bg-img" />
         <Image
@@ -22,13 +23,14 @@ const Header = () => {
         />
       </div>
       <div className="container logo-text-layout align-items-center justify-content-center d-flex">
-        <p className="logo-text">Men's fashion</p>
+        <p className="logo-text">Men s fashion</p>
       </div>
       <div className="container lorem-text-layout align-items-center justify-content-center d-flex">
         <p className="lorem-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore
         </p>
+      </div>
       </div>
     </>
   );
