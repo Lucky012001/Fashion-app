@@ -27,7 +27,7 @@ const Header = () => {
       <div className="container lorem-text-layout align-items-center justify-content-center d-flex">
         <p className="lorem-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore{" "}
+          eiusmod tempor incididunt ut labore
         </p>
       </div>
     </>
