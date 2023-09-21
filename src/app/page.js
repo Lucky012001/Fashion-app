@@ -3,6 +3,7 @@ import styles from './page.module.css'
 import Header from './header/header'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Card from './card/card'
+import Product from './product/product'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
      <div className='fashion-bg-color'>
      <Header/>
     <Card/>
+    <Product/>
      </div>
     
      </>
