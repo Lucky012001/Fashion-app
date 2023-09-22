@@ -1,148 +1,132 @@
 .card {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.card-button {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.card-text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.card-number {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #000000;
+}
+.location-card-number {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #000000;
+  font-family: Abel;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.phone-icon {
+  width: 42px;
+  height: 42px;
+}
+.mail-icon {
+  width: 42px;
+  height: 42px;
+}
+.mail-text {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  margin-top: -20px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+@media  (max-width: 480px){
+  .card {
     width: 250px;
-    height: 250px;
+    height: 166px;
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    margin-top: -55px;
   }
-  .card-button{
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    border-color: #000000;
+  .phone-icon {
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    left: 113px;
   }
-  
   .card-text {
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 14px;
     letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-   
+    text-align: left;    
   }
   .card-number {
     font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 31px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
     letter-spacing: 0em;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: #000000;
+    text-align: left;    
   }
-  .location-card-number{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: #000000;
-    font-family: Abel;
-font-size: 24px;
-font-weight: 400;
-line-height: 31px;
-letter-spacing: 0em;
-text-align: center;
-
-  }
-  .phone-icon {
-    width: 42px;
-    height: 42px;
-    
-  }
-  .mail-icon {
-    width: 42px;
-    height: 42px;
-    
+  .location-card-number {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
     
   }
   .mail-text {
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
-    color: #000000;
   }
   .button {
-    width: 50px;
-    height: 50px;
-    margin-top: -20px;
-    border-radius: 50px;
-    background-color: #FFFFFF;
-    border-color: #FFFFFF;
+    width: 34px;
+    height: 34px;
+    top: 1098px;
+    left: 151px;
   }
-  @media (max-width: 320px) {
-    .card {
-      width: 170px;
-      height: 166px;
-      border-radius: 10px;
-    }
-    .phone-icon {
-      width: 24px;
-      height: 24px;
-      margin-top: 40px;
-      margin-left: 75px;
-    }
-    .card-text {
-      font-family: Montserrat;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 14px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-    .card-number {
-      font-family: Montserrat;
-      font-size: 12px;
-      font-weight: 500;
-      line-height: 12px;
-      letter-spacing: 0em;
-      text-align: left;
-    }
-    .card {
-      width: 170px;
-      height: 166px;
-      border-radius: 10px;
-    }
-    .mail-icon {
-      width: 24px;
-      height: 24px;
-      margin-top: 40px;
-      margin-left: 75px;
-    }
-    .mail-text {
-      font-family: Montserrat;
-      font-size: 12px;
-      font-weight: 500;
-      line-height: 12px;
-      letter-spacing: 0em;
-      text-align: center;
-    }
-    .button {
-      width: 34px;
-      height: 34px;
-      top: 748px;
-    }
-    .icon {
-      width: 21.76px;
-      height: 21.76px;
-      top: 754.12px;
-      left: 103.12px;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-    }
-    .product-logo {
-      font-family: Kaushan Script;
-      font-size: 23px;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: 0em;
-      margin-top: 30px;
-    }
+  .icon{ 
+    width: 21.76px;
+    height: 21.76px;
+    top: 1104.12px;
+    left: 157.12px ; 
   }
-  
+}

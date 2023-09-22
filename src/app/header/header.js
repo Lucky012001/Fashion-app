@@ -25,12 +25,13 @@ const Header = () => {
       <div className="container logo-text-layout align-items-center justify-content-center d-flex">
         <p className="logo-text">Men s fashion</p>
       </div>
-      <div className="container lorem-text-layout align-items-center justify-content-center d-flex">
-        <p className="lorem-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore
-        </p>
-      </div>
+      <div className="lorem-layout-">
+          <p className="lorem-text align-items-center justify-content-center d-flex">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <br />
+            eiusmod tempor incididunt ut labore
+          </p>
+        </div>
       </div>
     </>
   );

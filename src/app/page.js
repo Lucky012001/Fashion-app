@@ -8,10 +8,13 @@ import Product from './product/product'
 export default function Home() {
   return (
      <>
+    
+     
+ 
      <div className='fashion-bg-color'>
      <Header/>
     <Card/>
-    <Product/>
+    {/* <Product/> */}
      </div>
     
      </>

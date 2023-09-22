@@ -43,7 +43,7 @@ const Product = () => {
       return (
         <div>
           <h1 className="product-logo logo-text align-items-center justify-content-center d-flex ">
-            Your Product
+            Our Product
           </h1>
           <div className="mt-5 container-fluid align-items-center justify-content-center d-flex">
             <Carousel showArrows={false} selectedItem={selectedSlide}  >
