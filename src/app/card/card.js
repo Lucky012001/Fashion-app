@@ -5,7 +5,7 @@ import Telephone from "../../../public/icon/material-symbols_call-sharp.svg";
 import Mail from "../../../public/icon/tabler_mail-filled.svg";
 import Sagment from "../../../public/icon/ph_line-segments-fill (1).svg";
 import Location from  "../../../public/icon/fluent_location-16-filled.svg"
-import instagram from  "../../../public/button-icon/uil_instagram.svg"
+import instagram from  "../../../public/button-icon/Vector.svg"
 import facebook from  "../../../public/button-icon/bxl_facebook.svg"
 import whatsapp from  "../../../public/button-icon/ic_outline-whatsapp.svg"
 import Youtube from  "../../../public/button-icon/ri_youtube-line.svg"
