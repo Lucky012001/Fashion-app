@@ -36,16 +36,16 @@
           
     } 
     .gallery-product-card {
-        width: 150px;
-        height: 190px;
+        width: 130px;
+        height: 170px;
         flex-shrink: 0;
         border: 2px solid black;
         margin: 5px;
       }
       .gallery-child-1{
-        width: 170px;
-        height: 200px;
-        margin-left: -10px;
+        width: 130px;
+        height: 180px;
+        margin-left: -8px;
         margin-top: -10px;
      }
     .btn-row {
