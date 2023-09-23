@@ -1,0 +1,55 @@
+.gallery-product-logo {
+    font-family: Abel;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 65px;
+  }
+  .col-width {
+    width: 1000px;
+  }
+  .gallery-row{
+    margin-top: 40px;
+  }
+  .gallery-product-card {
+    width: 290px;
+    height: 380px;
+    flex-shrink: 0;
+    border: 2px solid black;
+    margin: 5px;
+  }
+ .gallery-child-1{
+    margin-top: -15px;
+    margin-left: -15px;
+ }
+  @media (max-width: 480px) {
+    .gallery-product-logo {
+        font-family: Abel;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 10px;
+          
+    } 
+    .gallery-product-card {
+        width: 160px;
+        height: 200px;
+        flex-shrink: 0;
+        border: 2px solid black;
+        margin: 5px;
+      }
+      .gallery-child-1{
+        width: 170px;
+        height: 200px;
+        margin-left: -10px;
+        margin-top: -10px;
+     }
+    .btn-row {
+      margin-top: -100px;
+    }
+  }
+  
