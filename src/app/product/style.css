@@ -1,79 +1,3 @@
-
-.product-logo {
-    font-family: Abel;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-top: 65px;
-  }
-  .col-width{
-    width: 1000px;
-  }
-  .product-card {
-    width: 296px;
-    height: 380px;
-    flex-shrink: 0;
-    border-radius: 10px;
-  background-color: #EDEDC4;
-    margin: 5px;
-    
-  }
-  .child-1 {
-    width: 305px;
-    height: 296px;
-    flex-shrink: 0;
-    border-radius: 10px 10px 0px 0px;
-    position: relative;
-  }
-  .button- {
-    width: 50px;
-    height: 50px;
-    margin-top: -100px;
-    border-radius: 50px;
-    background-color: #FFFFFF;
-    border-color: #FFFFFF;
-   margin-left: 65px;
-    position: absolute;
-  }
-  .fashion-layout {
-    width: 44px;
-    height: 16px;
-    top: 1918px;
-    left: 1186px;
-    margin-left: 130px;
-    margin-top: 30px;
-  }
-  .fashion-shirts-text {
-    font-family: Abel;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  .price-layout {
-    width: 90px;
-    height: 20px;
-    margin-left: 110px;
-    position: absolute;
-  }
-  .product-card-rs {
-    color: #000000;
-    font-family: Poppins;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    margin-top: -30px;
-  }
-  .rupee-icon {
-    margin-left: -110px;
-    margin-top: 10px;
-   height: 30px;
-  }
-  
-  @media  (max-width: 480px){
 .product-logo {
   font-family: Abel;
   font-size: 40px;
@@ -83,5 +7,138 @@
   text-align: left;
   margin-top: 65px;
 }
+.col-width {
+  width: 1000px;
+}
+.product-card {
+  width: 296px;
+  height: 380px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: #ededc4;
+  margin: 5px;
+}
+.child-1 {
+  width: 305px;
+  height: 296px;
+  flex-shrink: 0;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+.button- {
+  width: 50px;
+  height: 50px;
+  margin-top: -100px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  margin-left: 65px;
+  position: absolute;
+}
+.fashion-layout {
+  width: 44px;
+  height: 16px;
+  top: 1918px;
+  left: 1186px;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+.fashion-shirts-text {
+  font-family: Abel;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.price-layout {
+  width: 90px;
+  height: 20px;
+  margin-left: 110px;
+  position: absolute;
+}
+.product-card-rs {
+  color: #000000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: -30px;
+}
+.rupee-icon- {
+  margin-left: -110px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+@media (max-width: 480px) {
+  .product-logo {
+    font-family: Abel;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
   }
-     
+  .child-1 {
+    width: 150px;
+    height: 300px;
+  }
+  .product-card {
+    width: 130px;
+    height: 280px;
+    margin-top: -70px;
+  }
+  .fashion-layout {
+    width: 22px;
+    height: 8px;
+    top: 1918px;
+    left: 1186px;
+    margin-top: -100px;
+  }
+  .fashion-shirts-text {
+    font-family: Abel;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: -80px;
+    position: absolute;
+  }
+  .price-layout {
+    width: 50px;
+    height: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: absolute;
+  }
+  .product-card-rs {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -20px;
+    position: absolute;
+  }
+  .rupee-icon- {
+    margin-left: -70px;
+    margin-top: 20px;
+    height: 20px;
+  }
+  .button- {
+    width: 25px;
+    height: 25px;
+    margin-top: -130px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    position: absolute;
+  }
+  .btn-row {
+    margin-top: -100px;
+  }
+}

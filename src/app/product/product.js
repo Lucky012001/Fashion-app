@@ -45,8 +45,8 @@ const Product = () => {
           <h1 className="product-logo logo-text align-items-center justify-content-center d-flex ">
             Our Product
           </h1>
-          <div className="mt-5 container-fluid align-items-center justify-content-center d-flex">
-            <Carousel showArrows={false} selectedItem={selectedSlide}  >
+          
+            <Carousel showArrows={false} selectedItem={selectedSlide}  showStatus={false} >
               {cardData.map((card, index) => (
                 <div key={index} className="container carousel-card">
                   <div className="row">
@@ -57,7 +57,7 @@ const Product = () => {
                           <p className="fashion-shirts-text d-flex">Shirts</p>
                         </div>
                         <div className="price-layout">
-                          <Image src={Rupee} alt="img" className="rupee-icon" />
+                          <Image src={Rupee} alt="img" className="rupee-icon-" />
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
@@ -78,7 +78,7 @@ const Product = () => {
                           <p className="fashion-shirts-text d-flex">Shirts</p>
                         </div>
                         <div className="price-layout">
-                          <Image src={Rupee} alt="img" className="rupee-icon" />
+                          <Image src={Rupee} alt="img" className="rupee-icon-" />
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
@@ -99,7 +99,7 @@ const Product = () => {
                           <p className="fashion-shirts-text d-flex">Shirts</p>
                         </div>
                         <div className="price-layout">
-                          <Image src={Rupee} alt="img" className="rupee-icon" />
+                          <Image src={Rupee} alt="img" className="rupee-icon-" />
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
@@ -120,7 +120,7 @@ const Product = () => {
                           <p className="fashion-shirts-text d-flex">Shirts</p>
                         </div>
                         <div className="price-layout">
-                          <Image src={Rupee} alt="img" className="rupee-icon" />
+                          <Image src={Rupee} alt="img" className="rupee-icon-" />
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
@@ -133,19 +133,15 @@ const Product = () => {
                           </Link>
                         </button>
                       </div>
-                    </div>
-                  
-    
-                    {/* Other columns */}
+                    </div> 
                   </div>
                 </div>
               ))}
             </Carousel>
-          </div>
     
           {/* Custom left and right buttons */}
           <div className="container mt-5 product-btn align-items-center justify-content-center d-flex">
-            <div className="gap-2 row">
+            <div className="gap-2 btn-row row">
               <div className="col">
                 <button type="button" className="button" onClick={prevSlide}>
                   <Image src={Left} className="icon" alt="Previous" />

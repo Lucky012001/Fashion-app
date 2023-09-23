@@ -15,6 +15,7 @@ const Card = () => {
   return (
     <>
       {/* card-start */}
+      
       <div className="container mt-5 align-items-center justify-content-center d-flex">
         <div className="gap-2 card-row row">
           <div className="mt-5 col align-items-center justify-content-center d-flex">
