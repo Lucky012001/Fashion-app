@@ -36,8 +36,8 @@
           
     } 
     .gallery-product-card {
-        width: 160px;
-        height: 200px;
+        width: 150px;
+        height: 190px;
         flex-shrink: 0;
         border: 2px solid black;
         margin: 5px;
