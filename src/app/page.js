@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "./card/card";
 import Product from "./product/product";
 import Gallery from "./gallery/gallery";
+import Calendar from "./Appointment/appointment";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Card />
         <Product />
         <Gallery/>
+        <Calendar/>
       </div>
     </>
   );

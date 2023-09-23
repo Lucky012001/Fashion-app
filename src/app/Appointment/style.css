@@ -1,0 +1,285 @@
+.business-text {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000;
+  }
+  
+  .business-chart {
+    margin-top: 60px;
+  }
+  .date-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: -250px;
+  }
+  .date-img {
+    width: 20px;
+    height: 20px;
+  }
+  .day_1 {
+    margin-left: -50px;
+    margin-top: -45px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #000000;
+  }
+  .time {
+    margin-left: 50px;
+    margin-top: -10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #000000;
+  }
+  
+  .calendar-container {
+    background-color: #FFFFFF;
+    margin-top: 90px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  ul {
+    list-style-type: none;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  .month {
+    /* padding: 70px 25px; */
+    width: 80%;
+    background: #FFFFFF;
+    text-align: center;
+    margin-top: -40px;
+  }
+  
+  .month ul {
+    margin: 10;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: #000000;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  
+  .weekdays {
+    cursor: pointer;
+    margin: 10;
+    padding: 10px 0;
+    background-color: #FFFFFF;
+  }
+  
+  .weekdays li {
+    
+    display: inline-block;
+    width: 13.6%;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .days {
+    cursor: pointer;
+    padding: 10px 0;
+    background: #FFFFFF;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: white;
+    border-radius: 50px;
+    color: black !important;
+  }
+   
+  .appointment {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    color: #000000;
+  }
+  
+  .hour-text {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   color: #000000;
+    margin-top: 4%;
+  }
+  
+  .hour-time {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 5px;
+  }
+  
+  .hour-btn {
+    width: Hug (168px);
+    height: Hug (36px);
+    top: 3290px;
+    left: 961px;
+    border-radius: 5px;
+    gap: 10px;
+    border: none;
+  }
+  .appointment-btn {
+    width: 414px;
+    height: 50px;
+    top: 3356px;
+    left: 838px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+  }
+  .appointment-text {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px; 
+    color: #FFFFFF;
+  }
+  .empty-box-appintment{
+    width: 20px;
+    height: 15px;
+    background-color: #FFFFFF;
+  }
+  @media (max-width: 320px){
+    .business-text{
+      font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+    }
+    .date-btn{
+      width: 50px;
+  height: 49.14px;
+  top: 1951.47px;
+  left: 62px;
+  
+    }
+    .date-img{
+      width: 20px;
+  height: 19.66px;
+  top: 1966.21px;
+  left: 77px;
+  
+    }
+    .day_1{
+      font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+   
+  
+    }
+    .time{
+      font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+    }
+    .appointment{
+      font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+    }
+    .hour-text{
+      color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 24px */
+    }
+    .hour-btn{
+      display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+    }
+    .hour-time{
+      color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+    } 
+    .appointment-text{
+      color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  text-transform: capitalize;
+    }
+    
+  }
