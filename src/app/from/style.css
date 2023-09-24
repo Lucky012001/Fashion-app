@@ -1,0 +1,37 @@
+/* style.css */
+
+/* Input fields */
+.form-control {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid black;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Add a transition for smooth hover effect */
+}
+
+.form-control:hover {
+  border-color: blue; /* Change the border color on hover */
+}
+
+/* Button */
+.btn {
+  background-color: #007bff; /* Default button background color */
+  color: #fff; /* Default text color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add a transition for smooth hover effect */
+   
+}
+
+.btn:hover {
+  background-color: #0056b3;  
+  color: #fff;  
+}
+.last-from{
+  padding: 80px;
+  height: 250px;
+  background-color: #ffffff;
+}
+.empty-box{
+  height: 50px;
+  width: 100%;
+
+}

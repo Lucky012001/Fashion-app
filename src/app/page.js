@@ -6,6 +6,7 @@ import Card from "./card/card";
 import Product from "./product/product";
 import Gallery from "./gallery/gallery";
 import Calendar from "./Appointment/appointment";
+import From from "./from/from";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Product />
         <Gallery/>
         <Calendar/>
+        <From/>
       </div>
     </>
   );

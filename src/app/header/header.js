@@ -8,7 +8,7 @@ import "./style.css";
 const Header = () => {
   return (
     <>
-    <div> 
+    <div>  
       <div className="container-fluid">
         <Image src={Rectangle_32} alt="img" className="header-bg-img" />
         <Image
