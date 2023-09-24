@@ -9,7 +9,7 @@ const Form = () => {
           <div className='mb-3 col-md-4'>
             <div className="form-group">
               <input type="text" className="form-control" id="name" placeholder="Full Name" />
-            </div>
+            </div> 
           </div>
           <div className='mb-3 col-md-4'>
             <div className="form-group">
