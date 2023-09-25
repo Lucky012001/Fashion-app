@@ -9,10 +9,17 @@
   transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Add a transition for smooth hover effect */
 }
 
-.form-control:hover {
-  border-color: blue; /* Change the border color on hover */
-}
 
+ 
+.form-group input:focus {
+  border-color: initial;  
+  box-shadow: none;  
+  
+}
+.from-card{
+  background-color: #fff;
+  padding: 20px;
+}
 /* Button */
 .btn {
   background-color: #007bff; /* Default button background color */
@@ -25,13 +32,11 @@
   background-color: #0056b3;  
   color: #fff;  
 }
-.last-from{
-  padding: 60px;
-  height: 340px;
-  background-color:  #fff;
-}
+ 
 .empty-box{
   height: 50px;
   width: 100%;
-
+}
+@media (max-width: 480px){
+  
 }

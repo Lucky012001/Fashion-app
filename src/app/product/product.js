@@ -61,7 +61,7 @@ const Product = () => {
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
-                        <Link href="https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}" target="_blank">
+                        <Link href="https://api.whatsapp.com/send?phone=9301202044&text=Hello" target="_blank">
                           <Image
                             src={whatsapp_logo}
                             alt="YouTube"
@@ -82,7 +82,7 @@ const Product = () => {
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
-                        <Link href="https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}" target="_blank">
+                        <Link href="https://api.whatsapp.com/send?phone=9301202044&text=Hello" target="_blank">
                           <Image
                             src={whatsapp_logo}
                             alt="YouTube"
@@ -103,7 +103,7 @@ const Product = () => {
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
-                        <Link href="https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}" target="_blank">
+                        <Link href="https://api.whatsapp.com/send?phone=9301202044&text=Hello" target="_blank">
                           <Image
                             src={whatsapp_logo}
                             alt="YouTube"
@@ -124,7 +124,7 @@ const Product = () => {
                           <h1 className="product-card-rs">{card.price}</h1>
                         </div>
                         <button className="button-">
-                        <Link href="https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}" target="_blank">
+                        <Link href="https://api.whatsapp.com/send?phone=9301202044&text=Hello" target="_blank">
                           <Image
                             src={whatsapp_logo}
                             alt="YouTube"
